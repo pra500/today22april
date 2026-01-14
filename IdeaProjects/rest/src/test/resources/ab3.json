@@ -1,0 +1,15 @@
+{
+  "$schema": "http://json-shcema.org/draft-07/schema#",
+  "type": "object",
+  "requiered": ["id", "email", "first_name"],
+  "properties": {
+    "id": { "type": "integer" },
+    "email": { "type": "String", "format": "string" },
+    "first_name": { "type": "string" },
+    "avatar": {
+      "type": "url",
+      "pattern": "^https://reqres.in/img/faces/d-image.jpg"
+    }
+  },
+  "additionalProperties": true
+}

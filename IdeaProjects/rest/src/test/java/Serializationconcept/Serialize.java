@@ -7,6 +7,7 @@ import static org.hamcrest.Matchers.*;
 
 public class Serialize {
 
+
     public static void main(String[] args) {
 
         Student s1 = new Student(22, "Anshu", "qa");

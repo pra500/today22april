@@ -25,6 +25,7 @@ given().when().get("https://dummy-json.mock.beeceptor.com/posts");
 
 
 
+
     }
 
 

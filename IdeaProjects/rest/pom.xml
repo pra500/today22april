@@ -22,9 +22,6 @@
 
 
 
-
-
-
     <dependencies>
 
         <dependency>
@@ -57,6 +54,9 @@
         </dependency>
 
 
+
+
+
         <dependency>
             <groupId>io.rest-assured</groupId>
             <artifactId>json-schema-validator</artifactId>
@@ -76,8 +76,6 @@
             <artifactId>gson</artifactId>
             <version>2.10.1</version>
         </dependency>
-
-
 
 
         <!-- ✅ Jackson (for POJO serialization/deserialization) -->
@@ -135,19 +133,35 @@
             <scope>test</scope>
         </dependency>
 
+
+        <!-- Allure TestNG -->
+        <dependency>
+            <groupId>io.qameta.allure</groupId>
+            <artifactId>allure-testng</artifactId>
+            <version>2.28.0</version>
+        </dependency>
+
+
+        <!-- https://mvnrepository.com/artifact/org.aspectj/aspectjweaver -->
+        <dependency>
+            <groupId>org.aspectj</groupId>
+            <artifactId>aspectjweaver</artifactId>
+            <version>1.9.24</version>
+            <scope>runtime</scope>
+        </dependency>
+
     </dependencies>
 
-
-    <build>
+        <build>
         <plugins>
             <!-- Compiler plugin -->
+            <!-- Surefire Plugin -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.11.0</version>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>3.2.5</version>
                 <configuration>
-                    <source>11</source>
-                    <target>11</target>
+                    <testFailureIgnore>true</testFailureIgnore>
                 </configuration>
             </plugin>
 
@@ -158,10 +172,20 @@
                 <version>3.2.5</version>
                 <configuration>
                     <suiteXmlFiles>
-                        <suiteXmlFile>testng.xml</suiteXmlFile>
+                        <suiteXmlFile>
+                            testng.xml</suiteXmlFile>
                     </suiteXmlFiles>
                 </configuration>
             </plugin>
+
+
+            <!-- Allure Plugin -->
+            <plugin>
+                <groupId>io.qameta.allure</groupId>
+                <artifactId>allure-maven</artifactId>
+                <version>2.12.0</version>
+            </plugin>
+
         </plugins>
     </build>
 

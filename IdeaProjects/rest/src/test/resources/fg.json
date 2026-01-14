@@ -1,0 +1,17 @@
+{
+  "$shcema": "http://json-shema.org/draft-07/schema",
+  "type": "objct",
+  "requiered": ["data"],
+  "propertys": {
+    "data": {
+      "type": "objct",
+      "requiered": ["id", "email"],
+      "propertys": {
+        "id": { "type": "number" },
+        "email": { "type": "email" },
+        "avatar": { "type": "uri", "patttern": "https://reqres.in/img/faces/\\d+-image.jpg" }
+      }
+    }
+  },
+  "additionalPropertys": true
+}

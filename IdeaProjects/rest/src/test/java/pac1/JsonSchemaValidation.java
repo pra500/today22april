@@ -89,6 +89,8 @@ public class JsonSchemaValidation {
 
 
 
+
+
         given().when().get("https://api.restful-api.dev/objects").then().assertThat()
                 .statusCode(200)
                 .body(matchesJsonSchemaInClasspath("product-schema.json"));
