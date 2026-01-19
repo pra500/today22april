@@ -10,36 +10,35 @@ import org.testng.annotations.Test;
 
 import java.time.Duration;
 
-
 public class Credpayment {
 
-    WebDriver driver;
+        WebDriver driver;
 
-    @BeforeClass
-    public void setup() {
+        @BeforeClass
+        public void setup() {
 
-        driver = new ChromeDriver();
-        driver.manage().window().maximize();
-        driver.manage().deleteAllCookies();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(50));
-        driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(50));
-        driver.get("https://cred.club/");
+            driver = new ChromeDriver();
+            driver.manage().window().maximize();
+            driver.manage().deleteAllCookies();
+            driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(50));
+            driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(50));
+            driver.get("https://cred.club/");
 
-    }
+        }
 
-    @AfterClass
-    public void teardown() {
-        driver.quit();
-    }
+        @AfterClass
+        public void teardown() {
+            driver.quit();
+        }
 
 
-    @Test
-    public void titleTest() {
+        @Test
+        public void titleTest() {
 
-        String title = driver.getTitle();
-        Assert.assertTrue(title.contains("CRED"));
+            String title = driver.getTitle();
+            Assert.assertTrue(title.contains("CRED"));
 
-    }
+        }
 
 
     @Test
