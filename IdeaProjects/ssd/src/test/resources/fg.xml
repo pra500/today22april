@@ -1,0 +1,15 @@
+<suite name="suite1" parallel="tests" thread-count="2">
+    <test name="teswww1">
+        <classes class-name="fdb">
+            <class name="pac1.TFFTest">
+            </class>
+        </classes>
+    </test>
+
+    <test name="teswSww1">
+        <classes class-name="fdb">
+            <class name="pac1.TFFTest">
+            </class>
+        </classes>
+    </test>
+</suite>

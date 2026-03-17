@@ -53,7 +53,6 @@ Assert.assertTrue(title.contains("Nexio | Vanquishing Payment Complexity for Mer
 
 
 
-
     @Test
     public void logoTest() {
         boolean logo=
@@ -64,13 +63,16 @@ Assert.assertTrue(title.contains("Nexio | Vanquishing Payment Complexity for Mer
 
 
 
-
     @Test
     public void getstartedTest() {
         boolean getstarted=
                 driver.findElement(By.xpath("(//a[contains(text(), 'GET STARTED')])[1]")).isDisplayed();
         Assert.assertTrue(getstarted);
     }
+
+
+
+
 
 
 

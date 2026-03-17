@@ -1,0 +1,1 @@
+{"uuid":"7cf0bc2d-930d-4068-8137-54a43850201f","name":"pac1.BaTest.setup","children":["17e7aee8-a6a3-4065-affa-7c3a068a1045"],"description":"","befores":[{"name":"setup","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1773209018024,"stop":1773209023845}],"afters":[],"start":1773209018024,"stop":1773209023845}

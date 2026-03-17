@@ -1,0 +1,29 @@
+<suite name="f">
+
+
+
+    <test name="ff">
+
+
+        <classes>
+
+            <class name="pac1.AbhibusTest">
+
+
+            </class>
+        </classes>
+    </test>
+
+
+    <test name="ffs">
+
+
+        <classes>
+
+            <class name="pac1.paytmsddTest">
+
+
+            </class>
+        </classes>
+    </test>
+</suite>

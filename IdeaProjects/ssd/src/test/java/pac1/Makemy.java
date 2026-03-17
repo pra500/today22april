@@ -14,7 +14,6 @@ public class Makemy {
 
     WebDriver driver;
 
-
     @BeforeClass
     public void a() {
 
@@ -89,8 +88,11 @@ public class Makemy {
         System.out.println(list.size()
         );
 
-
     }
+
+
+
+
 
 
 

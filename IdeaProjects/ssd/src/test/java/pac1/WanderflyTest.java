@@ -15,7 +15,6 @@ import java.util.Set;
 
 public class WanderflyTest {
 
-
     //EVERY PAGE URL CHECK
 
     WebDriver driver;
@@ -23,7 +22,6 @@ public class WanderflyTest {
 
     @BeforeClass(alwaysRun = true)
     public void setup() {
-
 
         driver = new ChromeDriver();
         driver.manage().window().maximize();

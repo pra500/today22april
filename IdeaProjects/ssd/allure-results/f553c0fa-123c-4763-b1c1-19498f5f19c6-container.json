@@ -1,0 +1,1 @@
+{"uuid":"f553c0fa-123c-4763-b1c1-19498f5f19c6","name":"prac444.CTest.teardown","children":["d6871849-d6c7-44fe-921f-b4cccc126da6"],"description":"","befores":[],"afters":[{"name":"teardown","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1771404728236,"stop":1771404728586}],"start":1771404728235,"stop":1771404728586}

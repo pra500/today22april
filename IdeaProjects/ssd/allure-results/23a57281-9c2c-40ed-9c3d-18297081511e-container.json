@@ -1,0 +1,1 @@
+{"uuid":"23a57281-9c2c-40ed-9c3d-18297081511e","name":"pac1.BaTest.teardown","children":["180170ab-a13f-4c14-ab16-69e2250494e8"],"description":"","befores":[],"afters":[{"name":"teardown","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1773209013244,"stop":1773209013433}],"start":1773209013244,"stop":1773209013433}

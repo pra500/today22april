@@ -30,9 +30,6 @@ public class Acelucid {
         driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(50));
         driver.get("https://www.acelucid.com/");
 
-
-
-
     }
 
     @AfterClass
@@ -42,11 +39,6 @@ public class Acelucid {
 
     @Test
     public void ggTest() {
-
-
-
-
-
 
         String title = driver.getCurrentUrl();
         Assert.assertTrue(title.contains("acelucid"));
@@ -65,17 +57,51 @@ public class Acelucid {
                 driver.findElement(By.xpath("//button[contains(text(), 'Schedule a Call')]")).isDisplayed();
         Assert.assertTrue(b, "check the message");
 
+
+        System.out.println("t");
+
+
+
+//
+//        Scroll to bottom of page using JavaScriptExecutor.
+//
+//        1️⃣6️⃣ Wait for element using WebDriverWait.
+//
+//        1️⃣7️⃣ Upload a file using sendKeys().
+//
+//        1️⃣8️⃣ Take a screenshot.
+//
+//        1️⃣9️⃣ Hover over a menu using Actions class.
+
+
 //
 //         js = (JavascriptExecutor) driver;
 //        js.executeScript("window.scrollBy(400, 600)", "");
+//
+//        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(14));
+//        WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(
+//                "(//p[normalize-space()='Copyright © 2026 Acelucid, All rights reserved'])")));
+//
+//        boolean copyright =
+//                element.isDisplayed();
+//        Assert.assertTrue(copyright);
 
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(14));
-        WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(
-                "(//p[normalize-space()='Copyright © 2026 Acelucid, All rights reserved'])")));
 
-        boolean copyright =
-                element.isDisplayed();
-        Assert.assertTrue(copyright);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     }
 }

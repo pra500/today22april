@@ -1,0 +1,1 @@
+{"uuid":"6483ce38-0e43-4929-b02a-226469f76fb9","name":"pac1.RegisTest.setup","children":["e0402a99-2600-45dd-9521-291d1a3bd7ea"],"description":"","befores":[{"name":"setup","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1771403820640,"stop":1771403825496}],"afters":[],"start":1771403820638,"stop":1771403825496}

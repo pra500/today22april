@@ -1,0 +1,14 @@
+<suite name="suite1" parallel="tests" thread-count="2">
+
+
+    <test name="test1">
+
+        <classes>
+
+            <class name="pac1.TTcccTest">
+
+
+            </class>
+        </classes>
+    </test>
+</suite>

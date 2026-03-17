@@ -1,0 +1,1 @@
+{"uuid":"d8a19b2c-b4e5-464b-9818-3e54f3f29d63","name":"prac444.CTest.setup","children":["a57f10b0-852c-4ee5-bbb9-a7e46e31e863"],"description":"","befores":[{"name":"setup","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1771404636251,"stop":1771404661659}],"afters":[],"start":1771404636251,"stop":1771404661659}

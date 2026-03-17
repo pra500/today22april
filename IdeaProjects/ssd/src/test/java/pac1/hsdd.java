@@ -30,7 +30,9 @@ public class hsdd {
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(40));
         driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(40));
         driver.manage().deleteAllCookies();
-        driver.get("https://www.hdfc.com/");
+       // driver.get("https://www.hdfc.com/");
+
+        driver.get("https://rahulshettyacademy.com/mentorship");
     }
 
     @AfterClass(alwaysRun = true)
@@ -40,7 +42,7 @@ public class hsdd {
     }
 
 
-    @Test(priority = 0)
+   @Test(priority = 0)
     public void logoandtitleverifyTest() {
         String title =
                 driver.getTitle();
@@ -63,13 +65,16 @@ public class hsdd {
         boolean loginexist =
                 driver.findElement(By.xpath("(//a[starts-with(normalize-space(), 'Login')])[2]")).isDisplayed();
         Assert.assertTrue(loginexist);
+        }
+
+
+    @Test
+    public void eheTest() {
+        System.out.println(driver.getTitle());
+        System.out.println(driver.getCurrentUrl());
+
 
     }
-
-
-
-
-
 
 
 

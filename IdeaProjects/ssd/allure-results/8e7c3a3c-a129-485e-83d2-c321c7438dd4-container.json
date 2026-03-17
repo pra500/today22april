@@ -1,0 +1,1 @@
+{"uuid":"8e7c3a3c-a129-485e-83d2-c321c7438dd4","name":"prac444.RegisTest.teardown","children":["1b77dd63-52b0-4cef-a27f-d5140f9c04f0"],"description":"","befores":[],"afters":[{"name":"teardown","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1771409293136,"stop":1771409293516}],"start":1771409293136,"stop":1771409293516}
