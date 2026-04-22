@@ -13,6 +13,8 @@ public class Y {
 		for(int i:arr)
 		{
 			System.out.println(i);
+
+			
 		}
 		
 	
