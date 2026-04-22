@@ -1,11 +1,6 @@
 package pac1;
 
 public class Y {
-
-
-
-
-	
 	public static void main(String[] args) {
 		
 		int[] arr= {5,0,6,8};
@@ -13,26 +8,11 @@ public class Y {
 		for(int i:arr)
 		{
 			System.out.println(i);
-
 			
 		}
-		
-	
-		
-		
-		
-		
-		
-		
-		
-		
-	
-	
 	
 	StringBuffer s=new StringBuffer("de");
 
-	
-	
 	String s1="asc";
 	
 	String h=s1.replace("s", "s1");
